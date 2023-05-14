@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTTPS Proxy Browser</title>
+  </head>
+  <body>
+    <form id="url-form">
+      <input type="text" name="url" placeholder="Enter URL...">
+      <button type="submit">Go</button>
+    </form>
+    <div id="response"></div>
+    <script src="proxy.js"></script>
+  </body>
+</html>
